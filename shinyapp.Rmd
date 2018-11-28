@@ -1,0 +1,29 @@
+---
+title: "shinyapp"
+subtitle: "Comparing differnt predictors in mtcars"
+author: Yibo Fan
+date: Nov.28.2018
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+- Objective
+we want to find the best of the four predictors(cyl,hp,wt,am) by removing each one to see the influence of the removal. 
+- method
+we used the linear regression which uses mpg as output and other predictors as input. By checking the result of the **summary** of the four **lm**.
+
+## Some comparing code
+*summary(lm(mpg~hp+wt+am, data = mtcars))*
+*summary(lm(mpg~cyl+wt+am, data = mtcars))*
+*summary(lm(mpg~cyl+hp+am, data = mtcars))*
+*summary(lm(mpg~cyl+hp+wt, data = mtcars))*
+
+## Some finding
+When we see the different results of the summary, we find that the fourth model has the highest R^2 and almost lowest p-value which means that this model is better than the other three. So we can say that the removing "am" column has a greater improvement to the model compared to the other three variables.
+
+## Thank you!
+link : https://yibofan.shinyapps.io/First_shiny/

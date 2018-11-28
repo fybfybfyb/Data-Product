@@ -1,5 +1,9 @@
 Developing Data Products:Shiny Application and Reproducible Pitch
 ---
+## Link for the shinyapp and presentation:
+-  https://yibofan.shinyapps.io/First_shiny/
+-  http://rpubs.com/yibofan/443658
+
 ## Overview
 This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
 

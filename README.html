@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Developing Data Products:Shiny Application and Reproducible Pitch</title>
+
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
+  }
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<h2>Developing Data Products:Shiny Application and Reproducible Pitch</h2>
+
+<h2>Link for the shinyapp and presentation:</h2>
+
+<ul>
+<li> <a href="https://yibofan.shinyapps.io/First_shiny/">https://yibofan.shinyapps.io/First_shiny/</a></li>
+<li> <a href="http://rpubs.com/yibofan/443658">http://rpubs.com/yibofan/443658</a></li>
+</ul>
+
+<h2>Overview</h2>
+
+<p>This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio&#39;s servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.</p>
+
+<h2>Your Shiny Application</h2>
+
+<ol>
+<li>Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.</li>
+<li>Deploy the application on Rstudio&#39;s shiny server</li>
+<li>Share the application link by pasting it into the provided text box</li>
+<li>Share your server.R and ui.R code on github</li>
+</ol>
+
+<p>The application must include the following:</p>
+
+<ol>
+<li>Some form of input (widget: textbox, radio button, checkbox, &hellip;)</li>
+<li>Some operation on the ui input in sever.R</li>
+<li>Some reactive output displayed as a result of server calculations</li>
+<li>You must also include enough documentation so that a novice user could use your application.</li>
+<li>The documentation should be at the Shiny website itself. Do not post to an external link.</li>
+</ol>
+
+<p>The Shiny application in question is entirely up to you. However, if you&#39;re having trouble coming up with ideas, you could start from the simple prediction algorithm done in class and build a new algorithm on one of the R datasets packages. Please make the package simple for the end user, so that they don&#39;t need a lot of your prerequisite knowledge to evaluate your application. You should emphasize a simple project given the short time frame.</p>
+
+<h2>Your Reproducible Pitch Presentation</h2>
+
+<p>OK, you&#39;ve made your shiny app, now it&#39;s time to make your pitch. You get 5 slides (inclusive of the title slide) to pitch a your app. You&#39;re going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.</p>
+
+<p>Here&#39;s what you need:</p>
+
+<ol>
+<li>5 slides to pitch our idea done in Slidify or Rstudio Presenter </li>
+<li>Your presentation pushed to github or Rpubs</li>
+<li>A link to your github or Rpubs presentation pasted into the provided text box</li>
+</ol>
+
+</body>
+
+</html>
