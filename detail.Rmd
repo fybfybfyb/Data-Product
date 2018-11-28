@@ -1,0 +1,6 @@
+## Shiny Application
+
+- In the previous project in "Regression Model", we used the 'step' function with the linear regression(lm(mpg~., data = mtcars)), then we find the good predictors are cyl,hp,wt,am. So we want to find the best of the four by removing each one to see the influence of the removal. 
+- By comparing the summary details, we can compare the p-values and see the R^2 to have a better understanding of which one is the most important predictor in all of the predictors. 
+- Finally, I also provide the data of the "mtcars" and the introduction to each variable in the columns.
+
